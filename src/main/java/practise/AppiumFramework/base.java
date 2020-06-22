@@ -69,6 +69,8 @@ public class base {
 		// General Store apk is present under src directory
 		File appDir = new File("src");
 		File app = new File(appDir, (String) prop.get(appName));
+		
+		//test
 
 		// Setting desired capabilities
 		DesiredCapabilities capabilities = new DesiredCapabilities();
